@@ -1,0 +1,78 @@
+body {
+  background-color: lightpink;
+}
+.main {
+  background-color: blueviolet;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border: 2px solid crimson;
+  border-radius: 30px;
+  overflow: auto;
+  overflow-x: hidden;
+  box-shadow: 6px 6px 12px 12px rgba(0, 1, 44, 0.6);
+  /* display: block;   block level elementri imaju difoltnu vrednost blok */
+  display: inline-block;
+  margin: 30px;
+}
+
+/* HTML ELEMENTS */
+/* 1. Block level elements:
+1.1. div,header,section,main,footer
+1.2.p
+1.3.h1-h6
+1.4.ul,ol,:il */
+
+/* 2. Inline Elements:
+1.1. span
+1.2.a
+1.3.img
+1.4.button
+1.5.input
+1.6.textarea */
+
+.third {
+  /* padding: 10px 15px; */
+  color: violet;
+  font-style: italic;
+  font-size: 16px;
+  text-align: justify;
+  text-align-last: right;
+  text-indent: 20px;
+  margin: 15px;
+}
+.second {
+  font-size: 18px;
+  font: bolder;
+  color: indigo;
+  background-color: darksalmon;
+  text-align: center;
+  text-transform: uppercase;
+}
+.third:hover {
+  background-color: rgb(29, 16, 141);
+  color: fuchsia;
+  /* font-size: 20px; */
+}
+
+img {
+  width: 350px;
+  height: 200px;
+}
+img:hover {
+  content: url("https://media1.giphy.com/media/yoJC2GnSClbPOkV0eA/giphy.gif?cid=ecf05e47lhcpv8c760hqnoatph5khplyz4jugm6p2m5rv2rv&rid=giphy.gif&ct=g");
+}
+.fourth {
+  text-align: center;
+  font-style: inherit;
+  font-size: 20px;
+  color: magenta;
+  background-color: lemonchiffon;
+}
+.main:nth-of-type(2) {
+  /* visibility: hidden; necemo cesto koristiti zato sto ostaje mesto na stranici rezervisemo za taj element */
+  display: none;
+}
+.new-one {
+  background-color: blue;
+}

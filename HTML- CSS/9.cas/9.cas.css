@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style-position: inside;
+}
+
+body {
+  background-color: darkgray;
+}
+.first {
+  background-color: chocolate;
+  height: 300px;
+  background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-colorful-watercolor-rainbow-background-picture-image_985725.jpg);
+  height: 300px;
+  background-repeat: no-repeat;
+  /* background-size: 400px 200px; prva vrednost se osnosi na sirinu a druga na visinu pozadine */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; */
+  background-size: contain;
+}
+li:nth-of-type(odd) {
+  background-color: darkmagenta;
+}
+li:nth-of-type(even) {
+  background-color: gold;
+}
+li:nth-last-child(1) {
+  background-color: darkred;
+}

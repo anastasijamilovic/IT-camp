@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nas formular</title>
+    <link rel="stylesheet" href="../8.cas/formular.css">
+</head>
+<body>
+   <div>
+      <p class="first">Ponude leto/zima</p>
+   <form action="../8.cas/letovanje.html">
+   <label for="username"></label>
+   <input type="username" name="username" id="username" placeholder="username" required>
+</br>
+</br>
+<label for="password"></label>
+   <input type="password" name="password" id="password" placeholder="password" required>
+</br>
+</br>
+<label for="godine">Unesite Vas broj godina</label>
+<input type="number" name="datum" id="date" min="40" max="80">
+   
+</br>
+</br>
+<p>Odaberite pol:</p>
+<label for="gender">male</label>
+<input type="radio" name="gender" id="male" value="male" required>
+</br>
+</br>
+<label for="gender">female</label>
+<input type="radio" name="gender" id="female" value="male" required>
+</br>
+</br> 
+<p>Odaberite ponudu:</p>
+<a href="../8.cas/letovanje.html" target="_blank"></a>
+<label for="letovanje">Letovanje </label>
+    <input type="radio" name="letovanje" id="letovanje" value="letovanje" required/>
+
+</br>
+</br>
+<a href="../8.cas/zimovanje.html" target="_blank"></a>
+<label for="zimovanje">Zimovanje </label>
+<input type="radio" name="letovanje" id="zimovanje" value="zimovanje" required/>
+</br>
+</br>
+<button type="reset">RESETUJ</button>
+<button type="submit">IDI NA PONUDU</button>
+</div>
+</body>
+</html>  

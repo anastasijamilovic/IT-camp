@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+}
+
+.main {
+  display: inline-block;
+}
+body {
+  background-color: gainsboro;
+  display: inline-block;
+}
+
+.second {
+  border: 2px solid darkblue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 45px;
+  background-color: rgb(125, 164, 182);
+  overflow: auto;
+}
+.third {
+  border: 2px solid darkblue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 45px;
+  background-color: rgb(125, 164, 182);
+  overflow: auto;
+}
+.fourth {
+  border: 2px solid darkblue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 45px;
+  background-color: rgb(125, 164, 182);
+  overflow: auto;
+}
+.fifth {
+  border: 2px solid darkblue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 45px;
+  background-color: rgb(125, 164, 182);
+  overflow: auto;
+}
+h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+p {
+  padding: 20px;
+}
+.new {
+  text-align: center;
+}
+
+.head {
+  height: 100px;
+  background-color: darkblue;
+}
+
+.head img {
+  margin-right: 500px;
+
+  object-fit: contain;
+}
+.head p {
+  display: inline;
+}
+.head a {
+  margin: 10px;
+  color: rgb(252, 149, 24);
+}
+.h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: rgb(47, 47, 201);
+  margin-top: 25px;
+}
+.p {
+  color: rgb(28, 33, 51);
+  text-align: center;
+}

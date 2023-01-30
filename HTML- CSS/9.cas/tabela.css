@@ -1,0 +1,62 @@
+body {
+  background-color: #fbb1b0;
+  overflow: auto;
+}
+.first {
+  background-color: #c34cd3;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: none;
+}
+.second {
+  background-color: #e7f06c;
+}
+.sr {
+  background-color: #88face;
+}
+.en {
+  background-color: #a463c2;
+}
+.eng {
+  background-color: #a463c2;
+}
+.fiz {
+  background-color: #2e7f8b;
+}
+.fik {
+  background-color: #ffd153;
+}
+.ist {
+  background-color: #f6587b;
+}
+.ma {
+  background-color: #ff8b5c;
+}
+.mat {
+  background-color: #ff8b5c;
+}
+.br {
+  background-color: #e05858;
+}
+.ime {
+  background-color: #65ac96;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.main {
+  border: 4px solid darkorchid;
+}
+td {
+  border: 1px dashed blue;
+}
+table {
+  border-collapse: collapse;
+}
+td
+  /* border-left: 1px solid #e7f06c; */
+
+
+table tr:nth-of-type(2) td {
+  border: 0px;
+}

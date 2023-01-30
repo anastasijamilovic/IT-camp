@@ -1,0 +1,20 @@
+body {
+  background-color: cadetblue;
+}
+div {
+  background-color: indianred;
+  border: 3px solid darkslategray;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  padding: 30px;
+}
+p {
+  font-size: x-large;
+}
+
+.first {
+  background-color: cadetblue;
+  font-size: x-large;
+}
