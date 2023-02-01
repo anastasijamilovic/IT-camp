@@ -84,3 +84,7 @@ p {
   color: rgb(28, 33, 51);
   text-align: center;
 }
+.icon {
+  color: #fe7f2d;
+  font-size: x-large;
+}
