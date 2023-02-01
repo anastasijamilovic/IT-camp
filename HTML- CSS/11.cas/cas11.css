@@ -1,0 +1,36 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Source+Code+Pro:ital,wght@0,300;1,200;1,400;1,600&display=swap"); dugi nacin importovanja eksternog fonta slova */
+* {
+  margin: 0;
+}
+body {
+  font-family: playfair display;
+}
+
+.main {
+  background-color: #cdb4db;
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 0px;
+  padding: 20px;
+  /* display: inline-block; */
+}
+.main p {
+  font-size: 22px;
+  text-indent: 20px;
+  text-align: justify;
+  text-align-last: right;
+  line-height: 40px;
+}
+.main h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* display: none; */
+/* visibility: hidden; */
+.icon {
+  color: #219ebc;
+  font-size: xx-large;
+  margin-left: 35px;
+}
