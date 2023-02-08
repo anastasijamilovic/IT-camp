@@ -1,10 +1,16 @@
 body {
   background-color: #cbcbc0;
-  border: 2px dashed black;
-  border-radius: 20px;
-  margin: 10px 410px 50px 410px;
+  /* margin: 10px 410px 50px 410px; */
 }
 
+.main {
+  width: 403px;
+  border-radius: 20px;
+  border: 2px dashed black;
+  margin: 15px;
+  /* padding: 10px; */
+  display: inline-block;
+}
 img {
   width: 403px;
   height: 200px;
@@ -36,4 +42,13 @@ div {
 i {
   margin-right: 10px;
   color: #f2cc8f;
+}
+.main:nth-of-type(5) {
+  visibility: hidden;
+}
+p:hover {
+  color: #ef233c;
+}
+div:hover {
+  background-color: #7d4e57;
 }
