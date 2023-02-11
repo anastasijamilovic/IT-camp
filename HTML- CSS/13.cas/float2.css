@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  /* float: left; */
+}
+.box1 {
+  background-color: rgb(255, 143, 171);
+  float: left;
+}
+.box2 {
+  background-color: #457b9d;
+  float: left;
+}
+.box3 {
+  background-color: #588157;
+  float: left;
+}
+.box4 {
+  background-color: #ffd60a;
+  clear: both;
+  float: left;
+}
+.box5 {
+  background-color: #8338ec;
+}
+.box6 {
+  background-color: #277da1;
+}
+.box7 {
+  background-color: #e07a5f;
+}
+p {
+  clear: both;
+}

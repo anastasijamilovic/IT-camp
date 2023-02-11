@@ -1,0 +1,48 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: #b0f2b4;
+  margin: 40px auto 0px;
+  position: relative;
+}
+.parent h1 {
+  font-size: 50px;
+}
+.child1 {
+  background-color: palevioletred;
+  height: 130px;
+  /* width: 600px; */
+  /* position: static; je difoltna vrednost pozicioniranja*/
+  /* position: relative; dobijamo 4 nova CSS svojstva */
+  /* top: ;
+  bottom: ;
+  left: ;
+  right: ; */
+  /* top: 640px;
+  left: 40px; */
+  position: absolute;
+  top: 20px;
+  left: 500px;
+  z-index: 10;
+}
+.child2 {
+  background-color: #fff07c;
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  z-index: 5;
+}
+.child3 {
+  background-color: #ee6055;
+  height: 130px;
+  position: sticky;
+  top: 40px;
+}
+.child4 {
+  background-color: #957fef;
+  height: 130px;
+}

@@ -49,6 +49,10 @@ i {
 p:hover {
   color: #ef233c;
 }
-div:hover {
+
+.main:hover {
+  background-color: #7d4e57;
+}
+.main:hover .first {
   background-color: #7d4e57;
 }
