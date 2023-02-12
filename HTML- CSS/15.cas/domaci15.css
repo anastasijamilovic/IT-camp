@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://www3.assets.heroku.com/assets/home/hero/ecosystem-51bfd00540ebf0b1e52b4fd935222d5c46c7ad58fc05273ca96311788ac0777c.png);
+  background-color: #1b1c38;
+}
+.hr {
+  background-color: #42456c;
+  color: lightblue;
+  font-family: Sassy Frass;
+  height: 80px;
+}
+button {
+  margin-left: 1200px;
+  background-color: #fdc0bc;
+  border: #fdc0bc;
+  border-radius: 20px;
+  font-size: x-large;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  top: 39px;
+}
+button:hover {
+  background-color: #1b1c38;
+}
+h1 {
+  margin-left: 30px;
+  font-size: 60px;
+  position: absolute;
+  top: 10px;
+}
+.hp {
+  margin-left: 990px;
+  font-size: xx-large;
+  position: absolute;
+  top: 50px;
+}
+.ceo {
+  background-color: #ce7670;
+  width: 900px;
+  height: 500px;
+  margin-left: 250px;
+  position: absolute;
+  top: 130px;
+}
+h2 {
+  color: #ce7670;
+  text-align: center;
+  background-color: #1b1c38;
+  font-size: xx-large;
+}
+.first {
+  font-size: 25px;
+  width: 420px;
+  padding: 20px;
+}
+.second {
+  font-size: 25px;
+  width: 420px;
+  padding: 20px;
+}
+.third {
+  font-size: 25px;
+  width: 420px;
+  padding: 20px;
+}
+h3 {
+  padding: 5px;
+}
+hr {
+  width: 420px;
+}
+i {
+  margin-right: 15px;
+}
+.forma {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+  padding: 50px;
+  color: #1b1c38;
+  border: 2px solid #ce7670;
+  background-color: #1b1c38;
+  border-radius: 20px;
+  position: absolute;
+  left: 870px;
+  top: 150px;
+}
+input {
+  background-color: #42456c;
+  color: white;
+}
+select {
+  background-color: #42456c;
+}
+::placeholder {
+  color: #ce7670;
+}
+.sj {
+  color: #ce7670;
+}
+.dug {
+}
