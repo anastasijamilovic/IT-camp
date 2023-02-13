@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.srce {
+  width: 30px;
+  height: 30px;
+  border-radius: 70px;
+}
+.hea {
+  width: 150px;
+  height: 90px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.first {
+  position: absolute;
+  left: 170px;
+  top: 70px;
+}
+.second {
+  position: absolute;
+  left: 270px;
+  top: 40px;
+  border: 2px solid black;
+  border-radius: 40px;
+  width: 500px;
+  height: 50px;
+  color: grey;
+}
+.second i {
+  padding: 20px;
+}
+.third {
+  position: absolute;
+  left: 800px;
+  top: 70px;
+}
+.fourth {
+  position: absolute;
+  left: 930px;
+  top: 70px;
+}
+.fifth {
+  position: absolute;
+  left: 1050px;
+  top: 60px;
+  font-size: x-large;
+}
+.one {
+  position: absolute;
+  left: 1100px;
+  top: 65px;
+  border-radius: 5px;
+}
+.two {
+  position: absolute;
+  left: 1180px;
+  top: 65px;
+  border-radius: 5px;
+}
+.w {
+  position: absolute;
+  left: 1270px;
+  top: 60px;
+  font-size: x-large;
+}
+.srce {
+  position: absolute;
+  left: 1320px;
+  top: 20px;
+}
+p {
+  font-size: 17px;
+  font-family: "Roboto Condensed";
+}
+.ceo {
+  background-color: #eaf4f4;
+  width: 1000px;
+  height: 350px;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.z {
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}
+.prvak {
+  border: 1px solid black;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  /* right: 30px; */
+  left: 30px;
+  top: 400px;
+}
+.prvak img {
+  height: 110px;
+  width: 100px;
+}
+.prvak h5 {
+  position: absolute;
+  left: 120px;
+  top: 10px;
+  font-size: 13, 5px;
+  padding: 5px;
+}
+.p0 {
+  position: absolute;
+  left: 110px;
+  top: 35px;
+  font-size: 12px;
+  padding: 5px;
+  font-family: "Open Sans";
+}
+.p1 {
+  position: absolute;
+  left: 110px;
+  bottom: 10px;
+  font-size: 12px;
+  padding: 5px;
+  font-family: "Open Sans";
+  color: #560bad;
+}
+.prvak i {
+  position: absolute;
+  top: 5px;
+  right: 9px;
+}
+.drugak img {
+  height: 120px;
+  width: 100px;
+}
+.drugak {
+  border: 1px solid black;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  left: 350px;
+}
+.p2 {
+  position: absolute;
+  left: 110px;
+  top: 10px;
+  font-size: 9px;
+  /* padding: 5px; */
+  font-family: "Open Sans";
+}
+.drugak i {
+  color: #e9ecef;
+  font-size: 40px;
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+.drugak h5 {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  font-size: 13px;
+  padding: 15px;
+  font-family: "Open Sans";
+}
+.p3 {
+  position: absolute;
+  left: 110px;
+  bottom: 10px;
+  font-size: 12px;
+  /* padding: 5px; */
+  font-family: "Open Sans";
+}
+
+.trecak {
+  border: 1px solid black;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 400px;
+  right: 30px;
+}
+.trecak i {
+  color: #e9ecef;
+  font-size: 40px;
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+.det i {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 35px;
+  left: 287px;
+}
+.trecak img {
+  height: 120px;
+  width: 100px;
+}
+.p4 {
+  position: absolute;
+  left: 110px;
+  top: 10px;
+  font-size: 10px;
+  /* padding: 5px; */
+  font-family: "Open Sans";
+}
+.trecak h5 {
+  position: absolute;
+  left: 100px;
+  top: 20px;
+  font-size: 13px;
+  padding: 15px;
+  font-family: "Open Sans";
+}
+.p5 {
+  position: absolute;
+  left: 110px;
+  bottom: 10px;
+  font-size: 12px;
+  padding: 5px;
+  font-family: "Open Sans";
+}
+.nalep {
+  background-color: white;
+  width: 350px;
+  height: 80px;
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nalep p {
+  font-size: 15px;
+  padding-top: 0px;
+  padding-right: 14px;
+  padding-left: 13px;
+  position: absolute;
+  bottom: 5px;
+}
+.nalep h2 {
+  padding: 5px;
+  position: absolute;
+  left: 8px;
+}
+.lr {
+  color: #560bad;
+  position: absolute;
+  top: 370px;
+  right: 40px;
+  text-decoration: underline;
+}
+.dole h2 {
+  position: absolute;
+  top: 360px;
+  left: 30px;
+}
