@@ -9,7 +9,7 @@
 }
 .hea {
   width: 150px;
-  height: 90px;
+  height: 60px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -21,13 +21,20 @@
 }
 .second {
   position: absolute;
-  left: 270px;
-  top: 40px;
-  border: 2px solid black;
-  border-radius: 40px;
+  left: 280px;
+  top: 50px;
+}
+.p {
+  position: absolute;
+  top: 65px;
+  left: 290px;
+  z-index: 5;
+}
+.second input {
   width: 500px;
   height: 50px;
-  color: grey;
+  border-radius: 50px;
+  padding-left: 40px;
 }
 .second i {
   padding: 20px;
@@ -53,12 +60,18 @@
   left: 1100px;
   top: 65px;
   border-radius: 5px;
+  border-color: silver;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
 }
 .two {
   position: absolute;
   left: 1180px;
   top: 65px;
   border-radius: 5px;
+  border-color: silver;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
 }
 .w {
   position: absolute;
@@ -82,6 +95,7 @@ p {
   position: absolute;
   top: 100px;
   left: 200px;
+  font-family: Ubuntu;
 }
 .z {
   width: 350px;
@@ -116,7 +130,7 @@ p {
   top: 35px;
   font-size: 12px;
   padding: 5px;
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .p1 {
   position: absolute;
@@ -124,7 +138,7 @@ p {
   bottom: 10px;
   font-size: 12px;
   padding: 5px;
-  font-family: "Open Sans";
+  font-family: Ubuntu;
   color: #560bad;
 }
 .prvak i {
@@ -133,7 +147,7 @@ p {
   right: 9px;
 }
 .drugak img {
-  height: 120px;
+  height: 119px;
   width: 100px;
 }
 .drugak {
@@ -150,7 +164,7 @@ p {
   top: 10px;
   font-size: 9px;
   /* padding: 5px; */
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .drugak i {
   color: #e9ecef;
@@ -165,7 +179,7 @@ p {
   top: 20px;
   font-size: 13px;
   padding: 15px;
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .p3 {
   position: absolute;
@@ -173,7 +187,7 @@ p {
   bottom: 10px;
   font-size: 12px;
   /* padding: 5px; */
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 
 .trecak {
@@ -199,7 +213,7 @@ p {
   left: 287px;
 }
 .trecak img {
-  height: 120px;
+  height: 119px;
   width: 100px;
 }
 .p4 {
@@ -207,8 +221,7 @@ p {
   left: 110px;
   top: 10px;
   font-size: 10px;
-  /* padding: 5px; */
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .trecak h5 {
   position: absolute;
@@ -216,7 +229,7 @@ p {
   top: 20px;
   font-size: 13px;
   padding: 15px;
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .p5 {
   position: absolute;
@@ -224,7 +237,7 @@ p {
   bottom: 10px;
   font-size: 12px;
   padding: 5px;
-  font-family: "Open Sans";
+  font-family: Ubuntu;
 }
 .nalep {
   background-color: white;
@@ -254,6 +267,7 @@ p {
   top: 370px;
   right: 40px;
   text-decoration: underline;
+  font-family: Ubuntu;
 }
 .dole h2 {
   position: absolute;

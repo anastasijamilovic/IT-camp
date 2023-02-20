@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@0,300;1,400;1,600&family=Lexend:wght@300&family=Open+Sans&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Raleway:ital,wght@0,300;1,300&family=Roboto+Condensed&family=Sassy+Frass&family=Source+Code+Pro:ital,wght@0,300;1,200;1,400;1,600&family=Ubuntu:wght@300;400&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: #eecd60;
+  height: 80vh;
+  display: flex;
+  /* flex-direction: row; difoltna vrednost */
+  /* flex-direction: column; */
+
+  /* Horzontalno poravnaje: */
+  /* justify-content: flex-start; difoltna vrednost horizontalnog poravnanja*/
+  /* justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+  /* Vertikalno poravnanje:*/
+  /* align-items: flex-start; difoltna vrednost vertikalnog poravnanja */
+  /* align-items: flex-end; */
+  align-items: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  /* background-color: #05c0b1; */
+}
+.box:nth-of-type(1) {
+  background-color: #478e64;
+  align-self: flex-start;
+}
+
+.box:nth-of-type(2) {
+  background-color: #41f6e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:nth-of-type(3) {
+  background-color: #049e91;
+  align-self: flex-end;
+}

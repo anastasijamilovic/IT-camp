@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  background-color: #6d6875;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  /* Horizontalno poravnanje */
+  /* align-items: center; */
+  align-items: flex-end;
+
+  /* Vertikalno poravnanje */
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+.box {
+  flex-basis: 150px;
+  height: 120px;
+}
+.first {
+  background-color: #e5989b;
+}
+.second {
+  background-color: #ffb4a2;
+}
+.third {
+  background-color: #ffcdb2;
+}
