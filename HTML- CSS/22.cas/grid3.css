@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 800px;
+  height: 700px;
+  background-color: #b4ffe6;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: minmax(180px, auto);
+  grid-auto-rows: minmax(180px, auto);
+  grid-gap: 20px;
+  /* Horizontalno poravnanje */
+  /* justify-content: end; ne koristiti flax-end */
+  justify-content: space-around;
+
+  /* Vertikalno poravnanje */
+  /* align-content: end; */
+  align-content: space-between;
+  /* align-content: space-around; */
+
+  /* justify-items: center; */
+  align-items: center;
+}
+
+.first {
+  background-color: #ffe4c4;
+}
+.second {
+  background-color: #78ff87;
+}
+.third {
+  background-color: #186191;
+}
+.fourth {
+  background-color: #ff9f2a;
+}
+.fifth {
+  background-color: #f7fe33;
+}
+.sixth {
+  background-color: #a07e92;
+}
+.seventh {
+  background-color: #5e4d39;
+}
