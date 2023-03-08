@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Dancing Script", cursive;
+}
+.site {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 7vh 7vh 20vh 300px 300px;
+  /* grid-auto-rows: 200px; */
+  grid-gap: 5px;
+}
+.header1 {
+  background-color: white;
+  grid-column: 1/-1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 17px;
+  padding: 5px 10px;
+}
+.header1 img {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: 100px;
+}
+.header1 img:hover {
+  scale: 1.2;
+}
+
+.header2 {
+  background-color: #340040;
+  color: white;
+  grid-column: 1/-1;
+}
+.header2 img {
+  width: 140px;
+  height: 140px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  left: -22px;
+  bottom: 35px;
+  padding: 15px;
+}
+.option {
+  color: white;
+  display: flex;
+  gap: 40px;
+  font-size: large;
+  position: relative;
+  left: 150px;
+  bottom: 130px;
+}
+.opcije {
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 155px;
+  left: 470px;
+  gap: 30px;
+  font-size: large;
+}
+i {
+  font-size: small;
+}
+section {
+  background-color: white;
+  grid-column: 1/-1;
+}
+section img {
+  width: 100%;
+  height: 130px;
+}
+.vl {
+  border-left: 1px solid grey;
+  height: 25px;
+}
+.lupa {
+  font-size: larger;
+}
+.card {
+  background-color: brown;
+}

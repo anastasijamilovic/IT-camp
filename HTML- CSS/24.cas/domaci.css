@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+}
+.first {
+  background-color: blueviolet;
+  width: 100%;
+  height: 300px;
+}
+.prvi {
+  color: #8a5a44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 250px;
+  gap: 30px;
+  font-family: "Cookie";
+}
+.prvi button {
+  background-color: #8a5a44;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: #e6ccb2;
+}
+.first i {
+  color: #8a5a44;
+  padding: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+}
+.first img {
+  width: 100%;
+  height: 300px;
+}
+.second {
+  background-color: darkgoldenrod;
+  width: 100%;
+  height: 300px;
+}
+.third {
+  background-color: darkgreen;
+  width: 100%;
+  height: 150px;
+}
+.fourth {
+  background-color: darkmagenta;
+  width: 100%;
+  height: 200px;
+}
+.fifth {
+  background-color: darkred;
+  width: 100%;
+  height: 100px;
+}
