@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins";
+}
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+header h1 {
+  color: white;
+  font-size: 35px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li a {
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  display: inline-block;
+}
+ul li a:hover {
+  color: #fad643;
+}
+
+ul li:hover ul {
+  display: block;
+}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li {
+  background: #555;
+  display: block;
+}
+ul li ul li a {
+  display: block !important;
+}
+ul li ul li:hover {
+  background: #666;
+}
+.getstarted-btn {
+  border: 1px #fad643 solid;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+.getstarted-btn:hover {
+  background-color: #fad643;
+  color: gray;
+  border: 1px #fad643 solid;
+}
+h1 i {
+  color: #fad643;
+  font-size: 4px;
+}
+.first {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://img.freepik.com/free-vector/network-communications-with-flowing-cyber-dots-design_1048-13962.jpg?size=626&ext=jpg&ga=GA1.1.179195757.1674913686&semt=ais");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.first p,
+.first .one h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 15px;
+}
+.one {
+  width: 100%;
+  height: 100px;
+}
+.first-one {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  border: 1px lightgray solid;
+  width: 170px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: x-large;
+  padding: 5px 15px;
+}
+.card p:hover {
+  color: #fad643;
+}
+.card i {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fad643;
+}
