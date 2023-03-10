@@ -1,6 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;500&family=Gloock&family=Josefin+Sans:ital,wght@0,300;1,400;1,600&family=Labrada:ital,wght@0,400;1,300&family=Lexend:wght@300&family=Lora&family=Open+Sans&family=PT+Sans&family=Playball&family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Raleway:ital,wght@0,300;1,300&family=Roboto+Condensed&family=Sassy+Frass&family=Satisfy&family=Shantell+Sans&family=Source+Code+Pro:ital,wght@0,300;1,200;1,400;1,600&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 body {
+  background-color: coral;
+  font-family: "Shantell Sans";
+}
+.container1 {
+  background-color: darkolivegreen;
+  width: 150px;
+  height: 150px;
+}
+.container2 {
+  background-color: hotpink;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
 }
