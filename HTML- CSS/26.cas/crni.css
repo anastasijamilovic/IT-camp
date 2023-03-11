@@ -6,12 +6,15 @@ body {
   font-family: "Poppins";
 }
 header {
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: black;
   height: 60px;
+  top: 0px;
+  position: sticky;
 }
 header h1 {
   color: white;
@@ -125,6 +128,92 @@ h1 i {
   padding: 0px 400px;
 }
 .second img {
-  width: 456px;
-  height: 342px;
+  width: 550px;
+  height: 360px;
+  display: flex;
+  margin-top: 50px;
+}
+.two {
+  width: 500px;
+  font-size: larger;
+}
+.two h3 {
+  margin-bottom: 15px;
+  margin-top: 65px;
+}
+.two p {
+  margin-bottom: 5px;
+}
+.second {
+  display: flex;
+  height: calc(100vh - 100vh);
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 200px;
+}
+.third {
+  display: flex;
+  height: calc(100vh - 100vh);
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 500px;
+}
+.third img {
+  width: 550px;
+  height: 500px;
+  margin-top: 60px;
+}
+.three i {
+  font-size: xx-large;
+}
+.three {
+  width: 550px;
+  height: 500px;
+  font-size: larger;
+  margin-top: 100px;
+  display: flex;
+}
+.three h3 {
+  margin-bottom: 20px;
+  color: #343a40;
+}
+.three p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.cards-parent {
+  margin: 20px auto;
+  width: 85%;
+  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.cards {
+  width: 350px;
+  height: 300px;
+  border: 1px #ced4da solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards :hover {
+}
+.cards h3,
+i {
+  font-size: x-large;
+}
+.cards p {
+  color: #666;
+  font-size: 16px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 15px 10px; */
+}
+.fourth {
+  margin-top: 400px;
 }
