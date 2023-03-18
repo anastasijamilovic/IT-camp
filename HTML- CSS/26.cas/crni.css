@@ -209,11 +209,31 @@ i {
 .cards p {
   color: #666;
   font-size: 16px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 120px 15px 10px; */
 }
 .fourth {
   margin-top: 400px;
+}
+.fourth .cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 30px;
+  gap: 20px;
+}
+.fourth .cards i {
+  background-color: #fad643;
+  padding: 20px;
+  border-radius: 5px;
+}
+.fourth .cards h3:hover {
+  color: #fad643;
+}
+.fourth .cards:hover {
+  position: relative;
+  bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hpart {
+  margin-bottom: 100px;
+  margin-left: 100px;
 }
