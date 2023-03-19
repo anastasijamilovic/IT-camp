@@ -237,3 +237,35 @@ i {
   margin-bottom: 100px;
   margin-left: 100px;
 }
+.plava {
+  background: url("https://media.licdn.com/dms/image/C4D16AQHxTPFdKEnC7A/profile-displaybackgroundimage-shrink_200_800/0/1595770643714?e=2147483647&v=beta&t=HtCdoAAsOXoi2b7T3HXFnSSsrhwST2GJrdYi_kQuhrc");
+  background-repeat: no-repeat;
+}
+.plava img {
+  width: 100%;
+  height: 250px;
+}
+.plava h3,
+p {
+  color: white;
+}
+.plava h3 {
+  font-size: 30px;
+}
+.plava button {
+  border: 1px solid white;
+  color: white;
+  background-image: url("https://media.licdn.com/dms/image/C4D16AQHxTPFdKEnC7A/profile-displaybackgroundimage-shrink_200_800/0/1595770643714?e=2147483647&v=beta&t=HtCdoAAsOXoi2b7T3HXFnSSsrhwST2GJrdYi_kQuhrc");
+  padding: 12px;
+}
+.container-plava {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  align-items: center;
+  position: relative;
+  bottom: 200px;
+  left: 220px;
+  gap: 10px;
+  font-size: 18px;
+}
