@@ -255,8 +255,10 @@ p {
 .plava button {
   border: 1px solid white;
   color: white;
-  background-image: url("https://media.licdn.com/dms/image/C4D16AQHxTPFdKEnC7A/profile-displaybackgroundimage-shrink_200_800/0/1595770643714?e=2147483647&v=beta&t=HtCdoAAsOXoi2b7T3HXFnSSsrhwST2GJrdYi_kQuhrc");
+  /* background-image: url("https://media.licdn.com/dms/image/C4D16AQHxTPFdKEnC7A/profile-displaybackgroundimage-shrink_200_800/0/1595770643714?e=2147483647&v=beta&t=HtCdoAAsOXoi2b7T3HXFnSSsrhwST2GJrdYi_kQuhrc"); */
+  background-color: #184e77;
   padding: 12px;
+  border-radius: 5px;
 }
 .container-plava {
   display: flex;
@@ -268,4 +270,8 @@ p {
   left: 220px;
   gap: 10px;
   font-size: 18px;
+}
+.plava button:hover {
+  color: black;
+  background-color: #fad643;
 }
