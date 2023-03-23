@@ -275,3 +275,113 @@ p {
   color: black;
   background-color: #fad643;
 }
+.container-slike {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(150deg, #111, #333);
+  transition: 0.15s, ease-out;
+}
+.container-slike.vertical {
+  flex-direction: column;
+  transition: 0.15s, ease-out;
+}
+.container-slike.vertical.container {
+  margin-bottom: 1rem;
+  transition: 0.15s, ease-out;
+}
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  justify-content: center;
+  width: 90vmin;
+  height: 90vmin;
+}
+.item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #111;
+}
+.item.active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  grid-row: unset;
+  grid-column: unset;
+}
+.item_title {
+  color: #fff;
+}
+
+.item.active .item_img {
+  opacity: 1;
+}
+.item_title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  pointer-events: none;
+  font-size: 1rem;
+  transition: 0.2s ease-out;
+  transform: translate(-50%, -50%);
+}
+.item_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  transition: 0.3s ease-out;
+}
+.item:hover .item_img {
+  opacity: 1;
+}
+.item:hover .item_title {
+  text-shadow: 0 2px 5px #000;
+  opacity: 1;
+}
+.item1 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item2 {
+  grid-template-areas: 1 / span 3;
+  grid-row: 3 / span 3;
+}
+.item3 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item4 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item5 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item6 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item7 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item8 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.item9 {
+  grid-template-areas: 1 / span 2;
+  grid-row: 1 / span 2;
+}
