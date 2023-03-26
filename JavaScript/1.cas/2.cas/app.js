@@ -31,7 +31,7 @@ console.log(a); // 10
 
 // vecernji termin nije ispravan nacin da napravimo razmak
 vecernji_termin = 19.3; //ispravan nacin zapsivanja promenljive - Undercore
-vecernjiTermin = 19.3; //ispravan nacin zapsivanja promenljive - Upper Camel Case(Pascal Case)
+VecernjiTermin = 19.3; //ispravan nacin zapsivanja promenljive - Upper Camel Case(Pascal Case)
 vecernjiTermin = 19.3; //ispravan nacin zapsivanja promenljive. Najcesce kosircen nacin zapisivanja promenljive u JavaScriptu. - Lover Camel Case
 
 // deklaracija    i    inicijalizacija
@@ -67,6 +67,6 @@ console.log(c);
 
 // 4. Koriscenjem nicega:
 d = 5;
-console.log(5);
+console.log(d);
 
 // Variijable (promeljive) u JavaScriptu predstavljaju kontejnere za skladistenje vrednosti.
