@@ -39,3 +39,34 @@ switch (broj) {
   default:
     console.log("Niste unesli broj iz trazenog opsega");
 }
+
+// 2. Zadatak = switch naredba
+// Korisnik unosi dva realna broja x i y. Napisati program koji izracunava i stampa
+// kolicnik x/y, ako je broj y razlicit od 0,
+// a inace ispisuje poruku: Deljenje je nemoguce.
+
+// const br1 = +prompt("Unesite prvi broj");
+// const br2 = +prompt("Unesite drugi broj");
+
+// if (isNaN(br1) || isNaN(br2)) {
+//   console.log("Uneti brojevi moraju biti ispravni");
+// } else if (br1 <= 0 || br2 <= 0) {
+//   console.log("Uneti brojevi moraju biti pozitvini");
+// }
+// if (br1 === br2) {
+//   console.log("Povrsina kvadrata je" + br1 * br2);
+// } else {
+//   console.log("Povrsina pravougaonika je" + br1 * br2);
+// }
+
+// 3. Zadatak
+const x = +prompt("Unesite prvi broj:");
+const y = Number(prompt("Unesite drugi broj:"));
+
+switch (y) {
+  case 0:
+    console.log("Deljenje nulom je nemogue.");
+    break;
+  default:
+    console.log("Kolicnik unetih brojeva je:" + x / y);
+}
