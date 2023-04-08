@@ -320,3 +320,10 @@ p {
 .portfolio .portfolio-one {
   margin-left: 100px;
 }
+.brojevi {
+  margin-top: 600px;
+}
+.brojevi img {
+  width: 500px;
+  height: 500px;
+}

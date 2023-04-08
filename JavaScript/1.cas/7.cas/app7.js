@@ -87,23 +87,27 @@ for(let i = 6; i < 15; i ++){
 }
 
 // 4.
-var suma = 0;
-for(var i = 10; i <= 20; i += 1){
-    if(i % 2 == 1){suma += i}
+let zbir = 0;
+for (let i = 11; i < 20; i += 2){
+    zbir += i;
 }
-
+console.log(zbir)
 // 1
-for(let i = 1; i <= 20; 1 --){
-    if( i % 2 === 0){
+for(let i = 1; i <= 20; i++){
+    if( i % 2 !== 0){
         console.log(i)
     }
 }
-for(let i = 2; i <= 20; i -= 2){
+for(let i = 1; i <= 20; i += 2){
     console.log(i)
 }
 
 // 2
-for(let i = 50; i <= 100; 1 ++){
-    if(i % 5 === 0)
-console.log(i);
+for(let broj = 50; broj <= 100; broj++){
+    if(i % 5 === 0){
+console.log(broj);
 }
+}
+
+
+
