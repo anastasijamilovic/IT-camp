@@ -80,6 +80,6 @@ function najduzaRec(string) {
       najduzaRec = nizReci[i];
     }
   }
-  return najduzaRec;
+  return najduzaRec.length;
 }
 console.log(najduzaRec(recenica));
