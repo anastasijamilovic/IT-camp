@@ -43,7 +43,8 @@ const spajenje = (A, B) => {
   duzina = A.length > B.length ? A.length : B.length;
   let noviString = "";
   for (let i = 0; i < duzina; i++) {
-    if (A[i] === undefined) {
+    if (!A[i]) {
+      // !A[i] umesto A[i] === undefined
       noviString += B[i];
     } else if (B[i] === undefined) {
       noviString += A[i];
