@@ -43,3 +43,11 @@ console.log(Math.round(Math.random() * 50) + 50);
 const obim = (r) => +(2 * r * Math.PI).toFixed(2);
 
 console.log(obim(2));
+
+/* Izracunaj rastojanje izmedju dve tacke u prostoru ako su zadate koordinate krajnjih tacaka. */
+
+function rastojanje(x1, y1, x2, y2) {
+  return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+}
+
+console.log(rastojanje(2, -3, 5, 4));
