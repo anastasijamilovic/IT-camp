@@ -51,3 +51,28 @@ function rastojanje(x1, y1, x2, y2) {
 }
 
 console.log(rastojanje(2, -3, 5, 4));
+
+// Domaci:
+// 1.
+/* Napraviti funkciju koja izracunava povrsinu kruga, gde
+  precnik predstavlja argument funkcije. */
+const precnik = 10;
+const povrsinaKruga = izracunajPovrsinuKruga(precnik);
+
+function izracunajPovrsinuKruga(precnik) {
+  let poluprecnik = precnik / 2;
+  let povrsina = Math.PI * Math.pow(poluprecnik, 2);
+  return povrsina;
+}
+console.log("Površina kruga sa prečnikom " + precnik + " je: " + povrsinaKruga);
+
+// 2.
+/* Napraviti funkciju za pretvaranje radijana u stepene. */
+const radijani = Math.PI / 2;
+const stepeni = radijaniUStepene(radijani);
+
+function radijaniUStepene(radijani) {
+  let stepeni = radijani * (180 / Math.PI);
+  return stepeni;
+}
+console.log(radijani + " radijana je jednako " + stepeni + " stepena.");
