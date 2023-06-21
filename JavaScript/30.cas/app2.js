@@ -199,3 +199,17 @@ function dodajImeMeseca(date) {
 const myDate = new Date("2023-05-22");
 const imeM = dodajImeMeseca(myDate);
 console.log(imeM);
+
+// Write a JavaScript program to calculate age.
+
+function countMyAge(birthDateSring) {
+  const birthDate = new Date(birthDateSring);
+  const currentDate = new Date();
+  const birthMilliseconds = Date.parse(birthDate);
+  const currentTimeMilliseconds = Date.parse(currentDate);
+
+  const sub = currentTimeMilliseconds - birthMilliseconds;
+  const year = new Date(sub).getFullYear() - 1970;
+  return year;
+}
+console.log(countMyAge("2005-10-25"));
