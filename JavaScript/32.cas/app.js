@@ -46,3 +46,43 @@ delete metoda ostavlja prazna (undefined) polja. Ne brise se element u potpunost
 delete fruits[fruits.length - 1];
 delete fruits[3];
 console.log(fruits);
+
+/*Domaci:
+Iz datog niza ispitati koliko elemenata je tipa string,
+koliko tipa number,
+koliko tipa boolean,
+koliko elemenata je zapravo niz?*/
+
+const nizz = [
+  "jagoda",
+  25,
+  true,
+  "mandarina",
+  [1, 2, 3],
+  "ananas",
+  49,
+  694,
+  "tresnja",
+];
+
+let tipaString = 0;
+let tipaBroj = 0;
+let tipaBoolean = 0;
+let tipaArray = 0;
+for (let i = 0; i < nizz.length; i++) {
+  const element = nizz[i];
+  if (typeof element === "string") {
+    tipaString++;
+  } else if (typeof element === "number") {
+    tipaBroj++;
+  } else if (typeof element === "boolean") {
+    tipaBoolean++;
+  } else if (Array.isArray(element)) {
+    tipaArray++;
+  }
+}
+
+console.log("Broj elemenata tipa string:", tipaString);
+console.log("Broj elemenata tipa number:", tipaBroj);
+console.log("Broj elemenata tipa boolean:", tipaBoolean);
+console.log("Broj elemenata koji su nizovi:", tipaArray);
