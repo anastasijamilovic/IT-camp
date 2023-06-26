@@ -1,3 +1,8 @@
+// concat() metoda nam sluzi za spajanje dva ili vise niza.
+
+const muskarci = ["Emir", "Selver"];
+const devojke = ["Asija", "Dzana", "Ajsa", "Anastasija"];
+
 // const celaGrupa = muskarci.concat(devojke)
 
 /* slice() metoda vraca deo niza (onoliko elemenata koliko smo trazili slanjem argumenata - indexa) */
@@ -77,3 +82,39 @@ brojevi.sort(function () {
   return 0.5 - Math.random();
 });
 console.log(brojevi);
+
+// 1. Napraviti funkciju koja vraca najveci element nekog niza.
+// 2. Napraviti funkciju koja vraca najmanji element nekog niza.
+// 3. Iz naseg niza grupa napraviti dva niza muskarci i devojke, s tim sto se Dzevdet, Marija, Melida i Tarik ne smeju naci.
+// 4. Napraviti funkciju koja pravi novi niz, koji ce sadrzati samo elemente koji su se nalazili na neparnim mestima unutar originalnog niza.
+// [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
+// [1,3,5,7,9,11,13]
+
+// 1.
+function najveciElement(niz) {
+  let najveci = niz[0];
+  for (let i = 1; i < niz.length; i++) {
+    if (niz[i] > najveci) {
+      najveci = niz[i];
+    }
+  }
+  return najveci;
+}
+let noviNiz = [5, 2, 9, 1, 7];
+let rezultat = najveciElement(noviNiz);
+console.log(rezultat);
+
+// 2.
+
+function najmanjiElement(niz) {
+  let najmanji = niz[0];
+  for (let i = 1; i < niz.length; i++) {
+    if (niz[i] < najmanji) {
+      najmanji = niz[i];
+    }
+  }
+  return najmanji;
+}
+let nizNajmanji = [5, 2, 9, 1, 7];
+let ispis = najmanjiElement(nizNajmanji);
+console.log(rezultat);
