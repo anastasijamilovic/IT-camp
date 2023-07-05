@@ -64,3 +64,32 @@ const numbers2 = numbers.map((num, index, arr) => {
   }
 });
 console.log(numbers);
+
+// Domaci:
+// 1. Pomocu map() metode napraviti novi niz stringova ciji ce elementi da budu
+// ispisani velikim slovima.
+
+// 2. Napraviti novi niz koji sadrzi element na kubni stepen postojeceg niza:
+
+// 3. Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.
+
+// 4.
+// const brojevi = [-5, 4, 3, 10, 14, -5];
+// Napraviti novi niz koji ce sve negativne brojeve pomnoziti sa (-1), a pozitivne kvadrirati.
+
+// 1.
+const prviNiz = ["krofna", "kucica", "automobil"];
+const mojNiz = prviNiz.map((element) => element.toUpperCase());
+
+console.log(mojNiz);
+
+// 4.
+const brojevi5 = [-5, 4, 3, 10, 14, -5];
+const naredniNiz = brojevi5.map((element) =>
+  element < 0 ? element * -1 : element ** 2
+);
+console.log(naredniNiz);
+
+// 2.
+const br3 = brojevi.map((element) => element ** 3);
+console.log(br3);
