@@ -60,3 +60,16 @@ const third = (arr) => {
   return arr3.filter((value) => value < 10);
 };
 console.log(third([1, 2, 3, 5, 7, 9, 11]));
+
+// 5. drugi nacin
+
+const fifth = (arr1, arr2) => {
+  const longerArr = arr1.length > arr2.length ? arr1 : arr2;
+  const shorterArr = arr2.length >= arr1.length ? arr1 : arr2;
+  const arr3 = longerArr.map(
+    (valur, index) => value + (shorterArr[index] || 0)
+  );
+  return arr3;
+};
+console.log(fifth(array1, array2));
+console.log(fifth(array2, array1));
