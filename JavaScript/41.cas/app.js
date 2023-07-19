@@ -64,3 +64,41 @@ o = ["st", "nd", "rd", "th"];
 // "1st choice is Blue."
 // "2nd choice is Green."
 // "3rd choice is Red."
+
+// 1.
+function nadjiJagodu(str) {
+  const arr = str.split(" ");
+  if (arr.includes("jagoda")) {
+    return arr.indexOf("jagoda");
+  } else {
+    arr.sort();
+    arr.unshift(10);
+    arr.push(100);
+    return arr;
+  }
+}
+const userInput = prompt("Unesite string:");
+const result = nadjiJagodu(userInput);
+console.log(result);
+
+// 2.
+
+const color = [
+  "Blue ",
+  "Green",
+  "Red",
+  "Orange",
+  "Violet",
+  "Indigo",
+  "Yellow ",
+];
+const o = ["st", "nd", "rd", "th"];
+for (let i = 0; i < color.length; i++) {
+  let choice;
+  if (i < 3) {
+    choice = `${i + 1}${o[i]}`;
+  } else {
+    choice = `${i + 1}${o[3]}`;
+  }
+  console.log(`${choice} choice is ${color[i]}.`);
+}
