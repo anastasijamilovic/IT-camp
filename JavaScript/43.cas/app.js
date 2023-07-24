@@ -80,3 +80,29 @@ const sub = (str) => {
   return arr;
 };
 console.log(sub("dog"));
+
+// Domaci:
+// Napraviti objekat student koji ce da ima vrednosti (po zelji), svojstava:
+// ime, prezime, broj indeksa, ocene (niz svih ocena koje student ima u
+// trenutnoj godini), prosekOcena (funckija koja na osnovu ocene vraca prosek
+// datih ocena).
+
+let student = {
+  ime: "Anastasija",
+  prezime: "Milovic",
+  brojIndeksa: "5476486",
+  ocene: [9, 9, 8, 7, 10],
+  prosekOcena: function () {
+    let ukupnoOcena = this.ocene.length;
+    if (ukupnoOcena === 0) {
+      return 0;
+    }
+    let sumaOcena = this.ocene.reduce((acc, ocena) => acc + ocena, 0);
+    return sumaOcena / ukupnoOcena;
+  },
+};
+console.log("Ime:", student.ime);
+console.log("Prezime:", student.prezime);
+console.log("Broj indeksa:", student.brojIndeksa);
+console.log("Ocene:", student.ocene);
+console.log("Prosek ocena:", student.prosekOcena());
